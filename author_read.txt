@@ -1,0 +1,7 @@
+文件夹	               用途
+data/	        保存工业设备数据集
+notebooks/	    Pandas 数据探索与实验
+src/	        Python 项目核心代码
+models/	        保存训练完成的机器学习模型
+tests/	        自动化测试代码
+docs/	        项目设计与技术文档
