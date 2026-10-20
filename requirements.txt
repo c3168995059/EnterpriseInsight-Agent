@@ -1,0 +1,22 @@
+# 数据处理与数值计算
+numpy==2.5.4
+pandas==3.0.6
+
+# 机器学习与模型持久化
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# 数据可视化
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# FastAPI 服务
+fastapi==0.150.0
+uvicorn==0.54.0
+
+# DeepSeek Agent
+openai==3.35.1
+python-dotenv==1.2.4
+
+# 自动化测试
+pytest==9.1.1
