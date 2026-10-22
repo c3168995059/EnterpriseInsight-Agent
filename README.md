@@ -128,13 +128,22 @@ DEEPSEEK_MODEL=your_model_name_here
 
 **1. 准备数据集**
 
-将数据文件放置在以下路径：
+本项目使用 UCI Machine Learning Repository 提供的 AI4I 2020 Predictive Maintenance Dataset（数据集 ID：601）。
+
+- 官方地址：https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+- 数据规模：10,000 条样本
+- 数据类型：模拟工业设备运行数据
+- 数据集许可证：CC BY 4.0
+
+首次运行时，从官方页面下载 `ai4i2020.csv`，放置到项目目录：
 
 ```text
 data/ai4i2020.csv
 ```
 
-数据应包含项目所需的六个输入特征和 `Machine failure` 标签。
+项目使用 `Machine failure` 作为二分类标签，以产品类型、空气温度、工艺温度、转速、扭矩和工具磨损六项特征进行预测。
+
+数据集与训练模型默认不纳入 Git 仓库。
 
 **2. 训练并生成预测模型**
 
